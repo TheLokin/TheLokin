@@ -3,9 +3,9 @@
 ```python
 class TheLokin():
   def __init__(self):
-    self.name = "Diego"
-    self.username = "TheLokin"
-    self.location = "Spain"
+    self.name = 'Diego'
+    self.username = 'TheLokin'
+    self.location = 'Spain'
 
   def __str__(self):
     return self.name
