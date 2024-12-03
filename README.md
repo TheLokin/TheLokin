@@ -1,17 +1,37 @@
 <h1 align="center">Hi 👋, I'm Diego</h1>
 
-```python
-class TheLokin():
-  def __init__(self):
-    self.name = 'Diego'
-    self.username = 'TheLokin'
-    self.location = 'Spain'
+```typescript
+class TheLokin {
+  private name: string;
+  private username: string;
+  private location: string;
 
-  def __str__(self):
-    return self.name
+  constructor() {
+    this.name = 'Diego Ramil López';
+    this.username = 'TheLokin';
+    this.location = 'Spain';
+  }
 
-if __name__ == '__main__':
-  me = TheLokin()
+  introduceYourself(): string {
+    return `
+      Hi, I'm ${this.name}, but you can call me '${this.username}' (because 'Master of Divs' was taken).
+      I'm a Frontend Developer from ${this.location} who lives on a steady diet of coffee and CSS bugs.
+    `;
+  }
+
+  debug(): void {
+    console.log(`Debugging ${this.username}...`);
+    setTimeout(() => console.log('Still debugging...'), 1000);
+    setTimeout(() => console.log('Alright, fixed... for now.'), 3000);
+  }
+}
+
+// Main function to meet me
+(function main() {
+  const me = new TheLokin();
+  console.log(me.introduceYourself());
+  me.debug();
+})();
 ```
 
 ## My Statistics
