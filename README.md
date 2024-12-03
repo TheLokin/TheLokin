@@ -1,4 +1,7 @@
-<h1 align="center">Hi 👋, I'm Diego</h1>
+# Meet `TheLokin` 👨‍💻
+
+Welcome to my GitHub! Here's a fun TypeScript snippet that introduces me as a developer in a lighthearted way. 😄
+
 
 ```typescript
 class TheLokin {
@@ -34,7 +37,7 @@ class TheLokin {
 })();
 ```
 
-## My Statistics
+# Statistics
 <p align="left">
   <a href="https://github.com/TheLokin">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TheLokin&count_private=true&show_icons=true&theme=gruvbox&hide_border=true" alt="Diego's Github Stats"/>
