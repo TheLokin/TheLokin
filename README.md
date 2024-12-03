@@ -1,7 +1,6 @@
 # Meet `TheLokin` 👨‍💻
 
-Welcome to my GitHub! Here's a fun TypeScript snippet that introduces me as a developer in a lighthearted way. 😄
-
+Welcome to my GitHub! Here's a fun TypeScript snippet that introduces me as a developer. 😄
 
 ```typescript
 class TheLokin {
