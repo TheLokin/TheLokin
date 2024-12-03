@@ -15,7 +15,7 @@ class TheLokin {
     this.location = 'Spain';
   }
 
-  introduceYourself(): string {
+  introduce(): string {
     return `
       Hi, I'm ${this.name}, but you can call me '${this.username}' (because 'Master of Divs' was taken).
       I'm a Frontend Developer from ${this.location} who lives on a steady diet of coffee and CSS bugs.
@@ -32,7 +32,7 @@ class TheLokin {
 // Main function to meet me
 (function main() {
   const me = new TheLokin();
-  console.log(me.introduceYourself());
+  console.log(me.introduce());
   me.debug();
 })();
 ```
