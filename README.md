@@ -1,4 +1,4 @@
-# Meet `TheLokin` 😎
+# 👋 Hey there, I'm Diego
 
 ```typescript
 class TheLokin {
